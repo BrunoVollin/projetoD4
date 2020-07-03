@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Projet D4</title>
+    <script src='d4.js'></script>
+    <link rel="stylesheet" href="d4.css">
+    <link rel="stylesheet" href="botoes.css">
+</head>
+
+<body>
+    <div id="principal">
+        <h1>Projeto D4</h1>
+
+        <div class="botao">
+            <div>
+                <input id="q4" class="quantidade" type="text" value="1" size="15" />
+                <button id="d4" class="myButton" onclick="roda(4, 'q4')">D4</button>
+            </div>
+            <div>
+                <input id="q6" class="quantidade" type="text" value="1" size="15" />
+                <button id="d6" class="myButton" onclick="roda(6, 'q6')">D6</button>
+            </div>
+        </div>
+
+        <div class="parteInferior">
+            <input id="mostraDados" class="calculos" type="text" disabled="true">
+            <br>
+            <input id="conta" class="calculos" type="text" disabled="true">
+            <br>
+            <input id="resultado" class="quantidade" type="text" size="15">
+            <br>
+            <button id="botao" onclick="maisMenos(true)"> + </button>
+            <button id="botao" onclick="maisMenos(false)"> - </button>
+            <br>
+            <button class="myButton" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
