@@ -1,33 +1,31 @@
-div {
-    text-align: center;
-    margin: center;
-    padding: 5px;
-}
-
-h1 {
-    text-shadow: blue;
-}
-
-#principal {
-    text-align: center;
-    margin: 0 auto;
-    background-color: black;
-    color: white;
-    height: 500px;
-    width: 200px;
-}
-
-body {
-    background: url("d&d.jpg") center;
-
-}
-
-html {
-    font-family: sans-serif;
-}
-
-.botao [id *= d] {
-    color: white;
-    background-color: #3E0CF7;
-}
-
+    div {
+        text-align: center;
+        margin: center;
+        padding: 5px;
+    }
+    
+    h1 {
+        text-shadow: blue;
+    }
+    
+    #principal {
+        text-align: center;
+        margin: 0 auto;
+        /* background-color: black; */
+        background-color: rgba(0,0,0,0.9);
+        color: white;
+        height: 500px;
+        width: 200px;
+    }
+    
+    body {
+        background: url("d&d.jpg") center;    }
+    
+    html {
+        font-family: sans-serif;
+    }
+    
+    .botao [id *=d] {
+        color: white;
+        background-color: #3E0CF7;
+    }
