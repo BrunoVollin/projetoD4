@@ -4,4 +4,4 @@
 </p>
 
 # ProjetoD4
-#### Projeto Simples de Roador de dados
+#### Projeto Simples de Roador de dados, que utiliza HTML, JS, CSS puros.
